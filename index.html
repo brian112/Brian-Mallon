@@ -27,23 +27,6 @@
     <!-- My Css --> 
     <style>
     
-
-   .navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-color: #6AD5CB;
-       
-   }
-   .navbar-default.affix .navbar-header .navbar-brand {
-    font-size: 19px;
-    color: #6AD5CB;
-}
-
-.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
-    color: #6AD5CB !important;
-    background-color: transparent;
-}
-
 .navbar navbar-default navbar-fixed-top affix-top {
      color: #6AD5CB;
 }
@@ -52,15 +35,41 @@ color: #6AD5CB;
      color: #6AD5CB;
      
 }
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  color: #6AD5CB;
+}
     .navbar-default .navbar-header .navbar-brand {
   text-transform: uppercase;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   font-weight: 700;
   color: #6AD5CB;
 }
+   .navbar-default.affix .navbar-header .navbar-brand {
+    font-size: 19px;
+    color: #6AD5CB;
+}
 
 .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
   color: #6AD5CB;
+}
+
+ .navbar-default.affix {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: #FFF;
+    }
+    .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #365C5A;
+        text-decoration: underline;
+    }
+    
+.navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
+    color: #365C5A;
+}
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+    color: #6AD5CB !important;
+    background-color: transparent;
 }
 
     header {
@@ -85,20 +94,7 @@ color: #6AD5CB;
     font-weight: 300;
     color: #013440;
     }
-    .navbar-default.affix {
-    border-color: rgba(34, 34, 34, 0.05);
-    background-color: #FFF;
-    }
-    .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #365C5A;
-        text-decoration: underline;
-    }
-    
-.navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
-    color: #365C5A;
-}
-
-    
+   
     header .header-content .header-content-inner p {
     font-size: 19px;
     font-weight: 300;
