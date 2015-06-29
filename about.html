@@ -27,7 +27,7 @@
     
     <!-- My Css --> 
     <style>
-   .navbar-brand page-scroll {
+.navbar-brand page-scroll {
      color: #6AD5CB;
 }
 .navbar-fixed-top {
@@ -35,6 +35,7 @@
   border-width: 0 0 1px;
   color: #6AD5CB;
 }
+
 .navbar-default {
     border-color: rgba(255,255,255,.3);
     background-color: rgba(82, 82, 82, 0.54);
@@ -43,6 +44,12 @@
     border-color: rgba(34, 34, 34, 0.05);
     background-color: rgba(255, 255, 255, 0.94);
 }
+.navbar-default.affix .nav > li > a, .navbar-default .nav > li > a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+}
 .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #365C5A;
         text-decoration: underline;
@@ -50,6 +57,9 @@
     
 .navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
     color: #365C5A;
+}
+.navbar-default.affix-top .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
+    color: #000;
 }
 .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
     color: #6AD5CB !important;
@@ -71,7 +81,17 @@
 .navbar navbar-default navbar-fixed-top affix-top {
      color: #6AD5CB;
 }
-
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #FFF;
+}
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:hover
+    border-color: #EDEDED;
+    color: #000;
+    background-color: #F2F2F2;
+}
    
 
 a {
