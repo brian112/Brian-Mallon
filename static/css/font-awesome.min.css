@@ -10,7 +10,6 @@
     
     body * * { padding:0; }
     body { font:small sans-serif; background:#eee; }
-    body>div { border-bottom:1px solid #ddd; }
     h1 { font-weight:normal; margin-bottom:.4em; }
     h1 span { font-size:60%; color:#666; font-weight:normal; }
     table { border:none; border-collapse: collapse; width:100%; }
