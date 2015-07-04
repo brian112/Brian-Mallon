@@ -49,7 +49,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">Plan Your Trip!</a>
+                        <a class="page-scroll" href="#plan">Plan Your Trip!</a>
                     </li>
                 </ul>
             </div>
@@ -64,31 +64,32 @@
                 <hr>
                 <p>Do you ever feel unsafe when traveling from point A to B, well with our web app you need  to worry no more, using the data we supply from the government we can plan the safest routes for your travel. </p>
             </div>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Plan your safe trip!</a>
+            <a href="#plan" class="btn btn-primary btn-xl page-scroll">Plan your safe trip!</a>
         </div>
     </header>
     
- <section class="bg-primary" id="about">
-        <div class="container">
+ <section class="bg-primary" id="Plan">
+        <div class="map">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Safe Road Router!</h2>
                     <hr class="light">
-                    <div class="map">
-                        <form> 
+                    <form> 
                         <p> Destination A: </p>
                         <input type="text" name="Destination A"> 
                     </form>
+                    <hr class="small">
                       <form> 
                         <p> Destination B: </p>
-                        <input type="text" name="Destination B"> 
+                        <input type="text" name="Destination B"> <br>
+                          <a href="#" class="btn btn-primary btn page-scroll">Find Safe Route</a>
                     </form>
-                    <a href="#about" class="btn btn-primary btn page-scroll">Find Safe Route</a>
+                  
 
-                    <iframe src="https://www.google.com/maps/d/embed?mid=z0JOXupQdKsg.kKLYwmVAbfdQ" width="640" height="480"></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=z0JOXupQdKsg.kKLYwmVAbfdQ" frameborder="0" style="height:500px;width:100%;position:relative;top:0px;left:0px;right:0px;bottom:0px" height="80%" width="100%"> </iframe>
                
                 </div>
-            </div>
+                </div>
         </div>
     </section>
 
