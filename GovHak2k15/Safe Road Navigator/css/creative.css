@@ -52,14 +52,29 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
-    height: 120%;
+    background-color: #3498DB;
 }
 /**Edits here **/
 
-.row-map {
-    width: 100%;
-    height: 200%;
+.map {
+height: 110%;
+background-color: #FFF;
+padding-top: 10%;
+padding-bottom: 5%;
+border-color: #000;
+border-bottom-width: 10px;
+color: #000;
+}
+.map-grey{
+    height: 50%;
+    background-color: #FFF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-color: #000;
+    border-bottom-width: 10px;
+    color: #000;
+    background-color: rgba(161, 161, 161, 0.47);
+    border-radius: 10px;
 }
 /** Finish here **/
 .bg-dark {
@@ -117,12 +132,10 @@ aside {
     color: #f05f40;
 }
 
-.navbar-default .nav > li.active>a,
-.navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+    color: #000 !important;
     background-color: transparent;
 }
-
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
@@ -158,10 +171,10 @@ aside {
         background-color: #fff;
     }
 
-    .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 14px;
-        color: #f05f40;
-    }
+.navbar-default.affix .navbar-header .navbar-brand {
+    font-size: 14px;
+    color: #3498db;
+}
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
@@ -233,10 +246,12 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content .header-content-inner {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1000px;
-    }
+margin-right: auto;
+margin-left: auto;
+max-width: 1000px;
+background-color: rgba(189, 195, 199, 0.47);
+border-radius: 50px;
+}
 
     header .header-content .header-content-inner p {
         margin-right: auto;
@@ -392,12 +407,10 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
-    color: #fff;
-    background-color: #f05f40;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+     border-color: #F05F40;
+    color: #FFF;
+    background-color: #4aa3df;
+    transition: all 0.35s ease 0s;
 }
 
 .btn-primary:hover,
@@ -408,7 +421,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #4AA3DF;
 }
 
 .btn-primary:active,
@@ -445,11 +458,13 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
+    border: 0px none;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
     font-weight: 700;
+    margin-bottom: 3px;
+
 }
 
 .btn-xl {
