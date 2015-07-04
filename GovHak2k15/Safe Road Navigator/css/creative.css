@@ -56,16 +56,8 @@ p {
     height: 120%;
 }
 /**Edits here **/
-.map {
-    margin-top: 15%;
-    margin-left: -160px;
-    background-color: #FFF;
-    width:100%;
-    height:100%;
-}
+
 .row-map {
-    margin-right: -15px;
-    margin-left: -15px;
     width: 100%;
     height: 200%;
 }
