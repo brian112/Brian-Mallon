@@ -56,21 +56,13 @@ p {
 /**Edits here **/
 
 .map {
-height: 110%;
-background-color: #FFF;
-padding-top: 10%;
-padding-bottom: 5%;
-border-color: #000;
-border-bottom-width: 10px;
- background: rgba(0,0,0,.15);
- padding: 30px;
- margin-top: 0;
- margin-right: auto;
- margin-bottom: 0;
- margin-left: auto;
- border:2px solid #ccc; 
-    -webkit-border-radius: 5px;
+    height: 110%;
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0% 0%;
+    padding: 30px;
+    margin: 0px auto;
+    border: 2px solid #CCC;
     border-radius: 5px;
+    text-decoration: underline;
 }
 .map-grey{
     height: 50%;
@@ -197,7 +189,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #000;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -207,7 +199,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #3498DB;
     }
 }
 
