@@ -46,11 +46,10 @@ h6 {
 }
 
 p {
-    margin-bottom: 20px;
+      margin-bottom: 5px;
     font-size: 16px;
     line-height: 1.5;
 }
-
 .bg-primary {
     background-color: #3498DB;
 }
@@ -63,7 +62,15 @@ padding-top: 10%;
 padding-bottom: 5%;
 border-color: #000;
 border-bottom-width: 10px;
-color: #000;
+ background: rgba(0,0,0,.15);
+ padding: 30px;
+ margin-top: 0;
+ margin-right: auto;
+ margin-bottom: 0;
+ margin-left: auto;
+ border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 .map-grey{
     height: 50%;
@@ -75,6 +82,18 @@ color: #000;
     color: #000;
     background-color: rgba(161, 161, 161, 0.47);
     border-radius: 10px;
+}
+
+.border-grey {
+ background: rgba(0,0,0,.15);
+ margin-top: 0;
+ margin-right: auto;
+ margin-bottom: 0;
+ margin-left: auto;
+ border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
 }
 /** Finish here **/
 .bg-dark {
@@ -464,7 +483,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
     font-weight: 700;
     margin-bottom: 3px;
-
+    margin-top: 3px;
 }
 
 .btn-xl {
